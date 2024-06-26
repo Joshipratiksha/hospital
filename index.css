@@ -1,0 +1,170 @@
+/* navbar */
+.navbar1 {
+  /* background: #f2f7fc; */
+  background: rgb(151, 199, 244);
+  background: linear-gradient(90deg, rgba(151, 199, 244, 1) 0%, rgba(231, 246, 248, 0.8604691876750701) 78%, rgba(0, 212, 255, 1) 100%);
+}
+
+/* footer */
+.footer {
+  background: rgb(3, 44, 90);
+  color: white;
+
+  .Menus {
+    margin-top: 20px;
+
+    ul {
+      list-style-type: none;
+    }
+
+    li a {
+      color: white;
+      transition: color .2s;
+
+      &:hover {
+        text-decoration: none;
+        color: red;
+      }
+    }
+  }
+
+  .about-company {
+    i {
+      font-size: 25px;
+    }
+
+    a {
+      color: black;
+      transition: color .2s;
+
+      &:hover {
+        color: #4180CB
+      }
+    }
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: 330px;
+
+    }
+  }
+
+  .location {
+    margin-top: 20px;
+
+    i {
+      font-size: 18px;
+    }
+  }
+
+  .copyright p {
+    border-top: 1px solid rgba(255, 255, 255, .1);
+  }
+}
+
+.align-right {
+  margin-left: 900px;
+}
+
+.carousel-inner {
+  img {
+    height: 500px;
+  }
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Custom styling for the box with text */
+.text-box {
+  position: inherit;
+  /* overflow: visible; */
+  top: 50%;
+  left: 50%;
+  /* margin: ; */
+  transform: translate(-50%, -50%);
+  background-color: rgb(3, 44, 90);
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 2% 1%;
+  /* Adjust the negative margin based on your needs */
+  margin-right: 25%;
+}
+
+.span12 {
+  display: flex;
+  /* This will make it a flex container */
+  flex-wrap: wrap;
+  /* This allows items to wrap to the next line as needed */
+  justify-content: space-between;
+  /* This spreads out the items evenly */
+  align-items: center;
+  /* This aligns items vertically in the center */
+}
+
+.col-icon {
+  flex: 1;
+  /* This allows each item to grow to fill the container */
+  min-width: 150px;
+  /* Minimum width for each item before they wrap */
+  text-align: center;
+  /* Centers the text inside each item */
+}
+
+/* .animated-icon {
+  animation: rotate 2s linear infinite;
+} */
+.d-grid {
+  background-color: rgb(203, 56, 49);
+}
+
+#home {
+  display: flex;
+  align-items: center;
+  background-color: #4180CB;
+  /* background: rgb(25,235,245);
+background: radial-gradient(circle, rgba(25,235,245,1) 0%, rgba(70,148,219,1) 39%, rgba(7,144,175,1) 75%, rgba(148,217,233,1) 100%); */
+
+}
+
+.home-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  /* Adjust padding as needed */
+  margin-left: 15%;
+  margin-right: 6%;
+}
+
+.btn1 {
+  background-color: rgb(115, 226, 161);
+  border-radius: 20px;
+  padding: 12px;
+  margin: 12px;
+  border-style: double;
+  cursor: pointer;
+}
+
+.bookimg img {
+  width: 30vw;
+  /* height: 10%; */
+  position: inherit;
+  clip-path: polygon(21% 0, 100% 0%, 81% 100%, 0% 100%);
+}
+
+.form-com {
+  padding: 10px;
+}
+
+.reg_logo,
+.reg_main,
+.reg_head {
+  display: flex;
+  justify-content: center;
+}
